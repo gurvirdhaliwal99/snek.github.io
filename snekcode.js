@@ -87,9 +87,9 @@ $(document).ready(function() {
   function paint_cell(x,y)
   {
       ctx.fillStyle = "green";
-      ctx.fillRect(c.x * cw, c.y * cw, cw, cw);
+      ctx.fillRect(x * cw, y * cw, cw, cw);
       ctx.strokeStyle = "white";
-      ctx.strokeRect(c.x * cw, c.y * cw, cw, cw);
+      ctx.strokeRect(x * cw, y * cw, cw, cw);
   }
   
   
